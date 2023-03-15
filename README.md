@@ -1,6 +1,7 @@
 Implant Global and Local Hierarchy Information to Sequence based Code Representation Models
 
 Accepted by ICPC 2023: https://conf.researchr.org/details/icpc-2023/icpc-2023-research/1/Implant-Global-and-Local-Hierarchy-Information-to-Sequence-based-Code-Representation-
+
 Link to Preprint: https://arxiv.org/pdf/2303.07826.pdf
 
 - We list source code for four tasks, including code classificaiton, clone detection, method name prediction and variable scope detection.
