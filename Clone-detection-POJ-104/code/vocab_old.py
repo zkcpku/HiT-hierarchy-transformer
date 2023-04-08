@@ -22,7 +22,7 @@ class VocabEntry(object):
 
         self.id2word = {v: k for k, v in self.word2id.items()}
 
-    def __gehitem__(self, word):
+    def __getitem__(self, word):
         return self.word2id.get(word, self.unk_id)
 
     def __contains__(self, word):

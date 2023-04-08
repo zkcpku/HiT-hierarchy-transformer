@@ -60,7 +60,7 @@ class HiTDataset(Dataset):
     def __len__(self):
         return self.corpus_line
 
-    def __gehitem__(self, item):
+    def __getitem__(self, item):
         sample = self.data[item]
         return {key: value if torch.is_tensor(value) or isinstance(value, dict) else torch.tensor(value) for key, value
                 in sample.items()}

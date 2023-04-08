@@ -252,7 +252,7 @@ class TextDataset(Dataset):
     def __len__(self):
         return len(self.examples)
 
-    def __gehitem__(self, i):   
+    def __getitem__(self, i):   
         label=self.examples[i].label
         index=self.examples[i].index
         labels=list(self.label_examples)

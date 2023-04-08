@@ -97,7 +97,7 @@ class TextDataset(Dataset):
     def __len__(self):
         return len(self.examples)
 
-    def __gehitem__(self, item):
+    def __getitem__(self, item):
         return torch.tensor(self.examples[item].input_ids),torch.tensor(self.examples[item].path_ids),torch.tensor(self.examples[item].label)
 
 
