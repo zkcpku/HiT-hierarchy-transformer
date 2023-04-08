@@ -41,7 +41,7 @@ from transformers import (AdamW, get_linear_schedule_with_warmup)
 
 logger = logging.getLogger(__name__)
 CACHE_DICT = {}
-RUN_ON_PATH = ['Abs','Rel','Whole'][0]
+RUN_ON_PATH = ['Abs','Rel','Whole'][-1]
 
 def split_to_abs_rel(path):
     if "statement|" in path:
