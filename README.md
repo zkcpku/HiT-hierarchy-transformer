@@ -31,6 +31,8 @@ In the dictionary `classification\`
 
 `python code_classfication_preprocess.py` and `python processed_tokens_with_path.py` to process the datasets, be careful to change the dataset path in each python file
 
+`python generate_vocab.py` to create the vocab file.
+
 `python run_xxx.py` to train or test different models, we give a example sh in `run.sh`
 
 ### Method Name Prediction
