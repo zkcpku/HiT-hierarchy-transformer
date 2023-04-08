@@ -5,7 +5,7 @@ Accepted by ICPC 2023: https://conf.researchr.org/details/icpc-2023/icpc-2023-re
 Link to Preprint: https://arxiv.org/pdf/2303.07826.pdf
 
 - We list source code for four tasks, including code classificaiton, clone detection, method name prediction and variable scope detection.
-- We edit config files which contain personal information. So be careful! We will release our full version of source code as soon as possible.
+- We edit config files which contain personal information. So be careful! We will release our full version of source code as soon as possible. *There might be some small adjustments to the file structure on Github that could cause certain bugs. I will organize it when I have some free time later. If you find any issues, feel free to create an issue or send me an email.*
 - The preprocessing script for each task is in each dir.
 - RAW DATASET Link are from open-source repo:
   - Code Classification: https://github.com/IBM/Project_CodeNet
