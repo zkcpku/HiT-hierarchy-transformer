@@ -1,6 +1,8 @@
 import os, json
 import pickle
 from tqdm import tqdm
+import sys
+sys.path.append("../variable scope detection/") # to import the utils.vocab from https://github.com/zkcpku/HiT-hierarchy-transformer/blob/master/variable%20scope%20detection/utils/vocab.py
 from utils.vocab import VocabEntry
 
 
