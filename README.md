@@ -4,6 +4,22 @@ Accepted by ICPC 2023: https://conf.researchr.org/details/icpc-2023/icpc-2023-re
 
 Link to Preprint: https://arxiv.org/pdf/2303.07826.pdf
 
+## [Update Planning]
+We are currently **expanding upon the framework presented in this paper**, and in the near future, we will expedite the addition of new experimental code, which will include:
+
+- Hierarchy BPE
+
+- Code Completion Task on Python150k and JS150k
+
+- Pretraining Framework
+
+**Technical details will be fully disclosed upon the new paper's approval for publication.**
+
+
+
+
+## [Note]
+
 - We list source code for four tasks, including code classificaiton, clone detection, method name prediction and variable scope detection.
 - We edit config files which contain personal information. So be careful! We will release our full version of source code as soon as possible. *There might be some small adjustments to the file structure on Github that could cause certain bugs. I will organize it when I have some free time later. If you find any issues, feel free to create an issue or send me an email.*
 - The preprocessing script for each task is in each dir.
@@ -12,6 +28,7 @@ Link to Preprint: https://arxiv.org/pdf/2303.07826.pdf
   - Clone Detection: https://github.com/microsoft/CodeXGLUE/tree/main/Code-Code/Clone-detection-POJ-104
   - Method Name Prediction: https://github.com/github/CodeSearchNet
   - You can download the raw dataset and preprocess with the script we provided.
+
 
 ### Clone Detection
 
